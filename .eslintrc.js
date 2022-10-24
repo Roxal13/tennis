@@ -4,12 +4,15 @@ module.exports = {
     commonjs: true,
     es2021: true,
     node: true,
+    'jest/globals': true,
   },
+  parser: '@babel/eslint-parser',
   extends: 'airbnb-base',
   overrides: [
   ],
   parserOptions: {
     ecmaVersion: 'latest',
+    requireConfigFile: false,
   },
   rules: {
     'linebreak-style': 0,
