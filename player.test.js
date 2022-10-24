@@ -9,5 +9,5 @@ test('Crear jugador instancia de Player', () => {
 
 test('Crear jugador con nombre, se almacena nombre en propiedad name', () => {
   const player1 = new Player('Pepe');
-	expect(player1.name).toBe('Pepe');
+  expect(player1.name).toBe('Pepe');
 });
