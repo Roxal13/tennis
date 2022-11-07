@@ -1,3 +1,5 @@
+const Player = require('./player');
+
 class Match {
 
 }
